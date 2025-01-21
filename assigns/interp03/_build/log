@@ -1,0 +1,16 @@
+# dune exec interp03 examples_basic.ml
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/kelvin/.cache/dune/db
+# Workspace root: /Users/kelvin/cs320-fall-2024-private/assigns/interp03
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -config > /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/dune_96e79c_output

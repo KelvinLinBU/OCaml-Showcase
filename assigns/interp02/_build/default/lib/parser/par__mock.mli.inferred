@@ -1,0 +1,53 @@
+type token =
+    VAR of string
+  | UNIT
+  | TRUE
+  | TIMES
+  | THEN
+  | RPAREN
+  | REC
+  | PLUS
+  | OR
+  | NUM of int
+  | NEQ
+  | MOD
+  | MINUS
+  | LTE
+  | LT
+  | LPAREN
+  | LET
+  | INT
+  | IN
+  | IF
+  | GTE
+  | GT
+  | FUN
+  | FALSE
+  | EQ
+  | EOF
+  | ELSE
+  | DIV
+  | COLON
+  | BOOL
+  | ASSERT
+  | ARROW
+  | AND
+val menhir_begin_marker : int
+val xv_ty_atom : Utils.ty
+val xv_ty_arrow : Utils.ty
+val xv_ty : Utils.ty
+val xv_toplet_list : Utils.prog
+val xv_toplet : Utils.toplet
+val xv_prog : Utils.prog
+val xv_expr_unary : Utils.sfexpr
+val xv_expr_rel : Utils.sfexpr
+val xv_expr_or : Utils.sfexpr
+val xv_expr_mul : Utils.sfexpr
+val xv_expr_atom : Utils.sfexpr
+val xv_expr_app : Utils.sfexpr
+val xv_expr_and : Utils.sfexpr
+val xv_expr_add : Utils.sfexpr
+val xv_expr : Utils.sfexpr
+val xv_arg_list : (string * Utils.ty) list
+val xv_arg : string * Utils.ty
+val menhir_end_marker : int

@@ -1,0 +1,18 @@
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:0:testing: last_function_standing <pred> 10 [f1;f2;f3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:0:testing: last_function_standing <pred> 10 [f1;f2;f3] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:0:testing: last_function_standing <pred> 10 [f1;f2;f3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:2:testing: last_function_standing <pred> 10 [].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:2:testing: last_function_standing <pred> 10 [] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:2:testing: last_function_standing <pred> 10 [].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:4:testing: last_function_standing <pred> 10 [f2;f3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:4:testing: last_function_standing <pred> 10 [f2;f3] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:4:testing: last_function_standing <pred> 10 [f2;f3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:6:testing: last_function_standing <pred> 2 [g1;g2].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:6:testing: last_function_standing <pred> 2 [g1;g2] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:6:testing: last_function_standing <pred> 2 [g1;g2].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:8:testing: last_function_standing <pred> 2 [g1;g3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:8:testing: last_function_standing <pred> 2 [g1;g3] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:8:testing: last_function_standing <pred> 2 [g1;g3].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic last_function_standing examples:10:testing: last_function_standing <pred> 123123 [g1].
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic last_function_standing examples:10:testing: last_function_standing <pred> 123123 [g1] is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic last_function_standing examples:10:testing: last_function_standing <pred> 123123 [g1].

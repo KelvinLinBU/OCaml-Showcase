@@ -1,0 +1,15 @@
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_of examples:0:testing: type_of 2.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_of examples:0:testing: type_of 2 is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_of examples:0:testing: type_of 2.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_of examples:2:testing: type_of (2 + 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_of examples:2:testing: type_of (2 + 3) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_of examples:2:testing: type_of (2 + 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_of examples:4:testing: type_of (if true then 2 else 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_of examples:4:testing: type_of (if true then 2 else 3) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_of examples:4:testing: type_of (if true then 2 else 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_of examples:6:testing: type_of (if (true || true) then 2 else (2 + 3)).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_of examples:6:testing: type_of (if (true || true) then 2 else (2 + 3)) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_of examples:6:testing: type_of (if (true || true) then 2 else (2 + 3)).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_of examples:8:testing: type_of (if (true || 3) then true else true).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_of examples:8:testing: type_of (if (true || 3) then true else true) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_of examples:8:testing: type_of (if (true || 3) then true else true).

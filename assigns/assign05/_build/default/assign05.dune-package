@@ -1,0 +1,67 @@
+(lang dune 3.16)
+(name assign05)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   assign05.a
+   assign05.cma
+   assign05.cmxa
+   assign05_01.cmi
+   assign05_01.cmt
+   assign05_01.cmx
+   assign05_01.ml
+   assign05_02.cmi
+   assign05_02.cmt
+   assign05_02.cmx
+   assign05_02.ml
+   assign05_03.cmi
+   assign05_03.cmt
+   assign05_03.cmx
+   assign05_03.ml
+   assign05_04.cmi
+   assign05_04.cmt
+   assign05_04.cmti
+   assign05_04.cmx
+   assign05_04.ml
+   assign05_04.mli
+   assign05_04_intf.cmi
+   assign05_04_intf.cmt
+   assign05_04_intf.cmx
+   assign05_04_intf.ml
+   dune-package
+   opam))
+ (libexec (assign05.cmxs)))
+(library
+ (name assign05)
+ (kind normal)
+ (archives (byte assign05.cma) (native assign05.cmxa))
+ (plugins (byte assign05.cma) (native assign05.cmxs))
+ (native_archives assign05.a)
+ (requires stdlib320)
+ (modes byte native)
+ (modules
+  (unwrapped
+   (module
+    (obj_name assign05_01)
+    (visibility public)
+    (source (path Assign05_01) (impl (path assign05_01.ml))))
+   (module
+    (obj_name assign05_02)
+    (visibility public)
+    (source (path Assign05_02) (impl (path assign05_02.ml))))
+   (module
+    (obj_name assign05_03)
+    (visibility public)
+    (source (path Assign05_03) (impl (path assign05_03.ml))))
+   (module
+    (obj_name assign05_04)
+    (visibility public)
+    (source
+     (path Assign05_04)
+     (intf (path assign05_04.mli))
+     (impl (path assign05_04.ml))))
+   (module
+    (obj_name assign05_04_intf)
+    (visibility public)
+    (source (path Assign05_04_intf) (impl (path assign05_04_intf.ml)))))))

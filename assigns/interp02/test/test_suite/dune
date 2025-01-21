@@ -1,0 +1,4 @@
+(library
+ (name test_suite)
+ (libraries ounit2 utils interp02)
+ (wrapped false))

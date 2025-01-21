@@ -1,0 +1,54 @@
+(lang dune 3.16)
+(name assign04)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   assign04.a
+   assign04.cma
+   assign04.cmxa
+   assign04_01.cmi
+   assign04_01.cmt
+   assign04_01.cmx
+   assign04_01.ml
+   assign04_02.cmi
+   assign04_02.cmt
+   assign04_02.cmx
+   assign04_02.ml
+   assign04_03.cmi
+   assign04_03.cmt
+   assign04_03.cmx
+   assign04_03.ml
+   assign04_04.cmi
+   assign04_04.cmt
+   assign04_04.cmx
+   assign04_04.ml
+   dune-package
+   opam))
+ (libexec (assign04.cmxs)))
+(library
+ (name assign04)
+ (kind normal)
+ (archives (byte assign04.cma) (native assign04.cmxa))
+ (plugins (byte assign04.cma) (native assign04.cmxs))
+ (native_archives assign04.a)
+ (requires stdlib320)
+ (modes byte native)
+ (modules
+  (unwrapped
+   (module
+    (obj_name assign04_01)
+    (visibility public)
+    (source (path Assign04_01) (impl (path assign04_01.ml))))
+   (module
+    (obj_name assign04_02)
+    (visibility public)
+    (source (path Assign04_02) (impl (path assign04_02.ml))))
+   (module
+    (obj_name assign04_03)
+    (visibility public)
+    (source (path Assign04_03) (impl (path assign04_03.ml))))
+   (module
+    (obj_name assign04_04)
+    (visibility public)
+    (source (path Assign04_04) (impl (path assign04_04.ml)))))))

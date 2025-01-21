@@ -1,0 +1,6 @@
+description = ""
+requires = "stdlib320"
+archive(byte) = "assign04.cma"
+archive(native) = "assign04.cmxa"
+plugin(byte) = "assign04.cma"
+plugin(native) = "assign04.cmxs"

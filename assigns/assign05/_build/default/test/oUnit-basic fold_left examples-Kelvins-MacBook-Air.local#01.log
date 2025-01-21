@@ -1,0 +1,9 @@
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic fold_left examples:0:testing: fold_left cons [] t1.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Test basic fold_left examples:0:testing: fold_left cons [] t1 is successful.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: End test basic fold_left examples:0:testing: fold_left cons [] t1.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic fold_left examples:2:testing: all_results t3.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Test basic fold_left examples:2:testing: all_results t3 is successful.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: End test basic fold_left examples:2:testing: all_results t3.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic fold_left examples:4:testing: all_results t5.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: Test basic fold_left examples:4:testing: all_results t5 is successful.
+2024-10-07T23:31:53+00:00 Kelvins-MacBook-Air.local#01 I: End test basic fold_left examples:4:testing: all_results t5.

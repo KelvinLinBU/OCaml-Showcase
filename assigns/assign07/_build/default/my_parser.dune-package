@@ -1,0 +1,62 @@
+(lang dune 3.16)
+(name my_parser)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   dune-package
+   lex.ml
+   my_parser.a
+   my_parser.cma
+   my_parser.cmi
+   my_parser.cmt
+   my_parser.cmx
+   my_parser.cmxa
+   my_parser.ml
+   my_parser__.cmi
+   my_parser__.cmt
+   my_parser__.cmx
+   my_parser__.ml
+   my_parser__Lex.cmi
+   my_parser__Lex.cmt
+   my_parser__Lex.cmx
+   my_parser__Par.cmi
+   my_parser__Par.cmt
+   my_parser__Par.cmti
+   my_parser__Par.cmx
+   opam
+   par.ml
+   par.mli))
+ (libexec (my_parser.cmxs)))
+(library
+ (name my_parser)
+ (kind normal)
+ (archives (byte my_parser.cma) (native my_parser.cmxa))
+ (plugins (byte my_parser.cma) (native my_parser.cmxs))
+ (native_archives my_parser.a)
+ (requires utils)
+ (main_module_name My_parser)
+ (modes byte native)
+ (modules
+  (wrapped
+   (group
+    (alias
+     (obj_name my_parser__)
+     (visibility public)
+     (kind alias)
+     (source (path My_parser__) (impl (path my_parser__.ml-gen))))
+    (name My_parser)
+    (modules
+     (module
+      (obj_name my_parser__Lex)
+      (visibility public)
+      (source (path Lex) (impl (path lex.ml))))
+     (module
+      (obj_name my_parser)
+      (visibility public)
+      (source (path My_parser) (impl (path my_parser.ml))))
+     (module
+      (obj_name my_parser__Par)
+      (visibility public)
+      (source (path Par) (intf (path par.mli)) (impl (path par.ml))))))
+   (wrapped true))))

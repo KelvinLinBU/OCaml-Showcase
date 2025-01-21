@@ -1,0 +1,27 @@
+lib: [
+  "_build/install/default/lib/assign04/META"
+  "_build/install/default/lib/assign04/assign04.a"
+  "_build/install/default/lib/assign04/assign04.cma"
+  "_build/install/default/lib/assign04/assign04.cmxa"
+  "_build/install/default/lib/assign04/assign04_01.cmi"
+  "_build/install/default/lib/assign04/assign04_01.cmt"
+  "_build/install/default/lib/assign04/assign04_01.cmx"
+  "_build/install/default/lib/assign04/assign04_01.ml"
+  "_build/install/default/lib/assign04/assign04_02.cmi"
+  "_build/install/default/lib/assign04/assign04_02.cmt"
+  "_build/install/default/lib/assign04/assign04_02.cmx"
+  "_build/install/default/lib/assign04/assign04_02.ml"
+  "_build/install/default/lib/assign04/assign04_03.cmi"
+  "_build/install/default/lib/assign04/assign04_03.cmt"
+  "_build/install/default/lib/assign04/assign04_03.cmx"
+  "_build/install/default/lib/assign04/assign04_03.ml"
+  "_build/install/default/lib/assign04/assign04_04.cmi"
+  "_build/install/default/lib/assign04/assign04_04.cmt"
+  "_build/install/default/lib/assign04/assign04_04.cmx"
+  "_build/install/default/lib/assign04/assign04_04.ml"
+  "_build/install/default/lib/assign04/dune-package"
+  "_build/install/default/lib/assign04/opam"
+]
+libexec: [
+  "_build/install/default/lib/assign04/assign04.cmxs"
+]

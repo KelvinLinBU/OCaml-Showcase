@@ -1,0 +1,63 @@
+(lang dune 3.16)
+(name assign06)
+(sections (lib .) (libexec .) (bin ../../bin))
+(files
+ (lib
+  (META
+   assign06.a
+   assign06.cma
+   assign06.cmxa
+   assign06_01.cmi
+   assign06_01.cmt
+   assign06_01.cmx
+   assign06_01.ml
+   assign06_02.cmi
+   assign06_02.cmt
+   assign06_02.cmx
+   assign06_02.ml
+   assign06_03.cmi
+   assign06_03.cmt
+   assign06_03.cmx
+   assign06_03.ml
+   assign06_04.cmi
+   assign06_04.cmt
+   assign06_04.cmx
+   assign06_04.ml
+   dune-package
+   opam
+   utils.cmi
+   utils.cmt
+   utils.cmx
+   utils.ml))
+ (libexec (assign06.cmxs))
+ (bin (assign06)))
+(library
+ (name assign06)
+ (kind normal)
+ (archives (byte assign06.cma) (native assign06.cmxa))
+ (plugins (byte assign06.cma) (native assign06.cmxs))
+ (native_archives assign06.a)
+ (requires stdlib320)
+ (modes byte native)
+ (modules
+  (unwrapped
+   (module
+    (obj_name assign06_01)
+    (visibility public)
+    (source (path Assign06_01) (impl (path assign06_01.ml))))
+   (module
+    (obj_name assign06_02)
+    (visibility public)
+    (source (path Assign06_02) (impl (path assign06_02.ml))))
+   (module
+    (obj_name assign06_03)
+    (visibility public)
+    (source (path Assign06_03) (impl (path assign06_03.ml))))
+   (module
+    (obj_name assign06_04)
+    (visibility public)
+    (source (path Assign06_04) (impl (path assign06_04.ml))))
+   (module
+    (obj_name utils)
+    (visibility public)
+    (source (path Utils) (impl (path utils.ml)))))))

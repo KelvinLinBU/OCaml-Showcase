@@ -1,0 +1,34 @@
+lib: [
+  "_build/install/default/lib/assign06/META"
+  "_build/install/default/lib/assign06/assign06.a"
+  "_build/install/default/lib/assign06/assign06.cma"
+  "_build/install/default/lib/assign06/assign06.cmxa"
+  "_build/install/default/lib/assign06/assign06_01.cmi"
+  "_build/install/default/lib/assign06/assign06_01.cmt"
+  "_build/install/default/lib/assign06/assign06_01.cmx"
+  "_build/install/default/lib/assign06/assign06_01.ml"
+  "_build/install/default/lib/assign06/assign06_02.cmi"
+  "_build/install/default/lib/assign06/assign06_02.cmt"
+  "_build/install/default/lib/assign06/assign06_02.cmx"
+  "_build/install/default/lib/assign06/assign06_02.ml"
+  "_build/install/default/lib/assign06/assign06_03.cmi"
+  "_build/install/default/lib/assign06/assign06_03.cmt"
+  "_build/install/default/lib/assign06/assign06_03.cmx"
+  "_build/install/default/lib/assign06/assign06_03.ml"
+  "_build/install/default/lib/assign06/assign06_04.cmi"
+  "_build/install/default/lib/assign06/assign06_04.cmt"
+  "_build/install/default/lib/assign06/assign06_04.cmx"
+  "_build/install/default/lib/assign06/assign06_04.ml"
+  "_build/install/default/lib/assign06/dune-package"
+  "_build/install/default/lib/assign06/opam"
+  "_build/install/default/lib/assign06/utils.cmi"
+  "_build/install/default/lib/assign06/utils.cmt"
+  "_build/install/default/lib/assign06/utils.cmx"
+  "_build/install/default/lib/assign06/utils.ml"
+]
+libexec: [
+  "_build/install/default/lib/assign06/assign06.cmxs"
+]
+bin: [
+  "_build/install/default/bin/assign06"
+]

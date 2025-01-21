@@ -1,0 +1,12 @@
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic lex examples:1:testing lex "+ 
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  + 0  
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  -0".
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: Test basic lex examples:1:testing lex "+ 
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  + 0  
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  -0" is successful.
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: End test basic lex examples:1:testing lex "+ 
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  + 0  
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I:  -0".
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic lex examples:3:testing lex "2 3 + 3 3 + < 0 1 1 + ?".
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: Test basic lex examples:3:testing lex "2 3 + 3 3 + < 0 1 1 + ?" is successful.
+2024-10-21T21:33:39+00:00 Kelvins-MacBook-Air.local#02 I: End test basic lex examples:3:testing lex "2 3 + 3 3 + < 0 1 1 + ?".

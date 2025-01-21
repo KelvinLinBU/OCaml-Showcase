@@ -1,0 +1,6 @@
+description = ""
+requires = ""
+archive(byte) = "utils.cma"
+archive(native) = "utils.cmxa"
+plugin(byte) = "utils.cma"
+plugin(native) = "utils.cmxs"

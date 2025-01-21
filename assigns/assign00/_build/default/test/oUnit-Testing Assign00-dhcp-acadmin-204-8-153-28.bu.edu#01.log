@@ -1,0 +1,18 @@
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:0:Basic sqrt Examples:0:sqrt 4 is 2.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:0:Basic sqrt Examples:0:sqrt 4 is 2 is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:0:Basic sqrt Examples:0:sqrt 4 is 2.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:0:Basic sqrt Examples:2:sqrt 100 is 10.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:0:Basic sqrt Examples:2:sqrt 100 is 10 is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:0:Basic sqrt Examples:2:sqrt 100 is 10.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:0:Basic sqrt Examples:4:sqrt 10 is 4.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:0:Basic sqrt Examples:4:sqrt 10 is 4 is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:0:Basic sqrt Examples:4:sqrt 10 is 4.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:1:Basic is_prime examples:0:is_prime 0 is false.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:1:Basic is_prime examples:0:is_prime 0 is false is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:1:Basic is_prime examples:0:is_prime 0 is false.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:1:Basic is_prime examples:2:is_prime 2 is true.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:1:Basic is_prime examples:2:is_prime 2 is true is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:1:Basic is_prime examples:2:is_prime 2 is true.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Start test Testing Assign00:1:Basic is_prime examples:4:is_prime 57 is false.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: Test Testing Assign00:1:Basic is_prime examples:4:is_prime 57 is false is successful.
+2024-09-06T15:55:52+00:00 dhcp-acadmin-204-8-153-28.bu.edu#01 I: End test Testing Assign00:1:Basic is_prime examples:4:is_prime 57 is false.

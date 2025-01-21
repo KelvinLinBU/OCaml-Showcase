@@ -1,0 +1,12 @@
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic mk_matrix examples:0:testing mk_unique_keys l1 cat.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Test basic mk_matrix examples:0:testing mk_unique_keys l1 cat is successful.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: End test basic mk_matrix examples:0:testing mk_unique_keys l1 cat.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic mk_matrix examples:2:testing mk_unique_keys l1 hat.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Test basic mk_matrix examples:2:testing mk_unique_keys l1 hat is successful.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: End test basic mk_matrix examples:2:testing mk_unique_keys l1 hat.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic mk_matrix examples:4:testing length of mk_unique_keys l1.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Test basic mk_matrix examples:4:testing length of mk_unique_keys l1 is successful.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: End test basic mk_matrix examples:4:testing length of mk_unique_keys l1.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic mk_matrix examples:6:testing mk_unique_keys l2 b.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: Test basic mk_matrix examples:6:testing mk_unique_keys l2 b is successful.
+2024-09-25T15:42:01+00:00 Kelvins-MacBook-Air.local#01 I: End test basic mk_matrix examples:6:testing mk_unique_keys l2 b.

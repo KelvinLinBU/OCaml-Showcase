@@ -1,0 +1,12 @@
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic parse examples:1:testing parse "".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Test basic parse examples:1:testing parse "" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: End test basic parse examples:1:testing parse "".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic parse examples:3:testing parse "(fun x -> x + 1) 2 3 4".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Test basic parse examples:3:testing parse "(fun x -> x + 1) 2 3 4" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: End test basic parse examples:3:testing parse "(fun x -> x + 1) 2 3 4".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic parse examples:5:testing parse "let x = x in in".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Test basic parse examples:5:testing parse "let x = x in in" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: End test basic parse examples:5:testing parse "let x = x in in".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic parse examples:7:testing parse "let f = (fun x -> x) in f ()".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: Test basic parse examples:7:testing parse "let f = (fun x -> x) in f ()" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#02 I: End test basic parse examples:7:testing parse "let f = (fun x -> x) in f ()".

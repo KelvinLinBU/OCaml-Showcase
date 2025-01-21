@@ -1,0 +1,36 @@
+type token =
+    VAR of string
+  | UNIT
+  | TRUE
+  | THEN
+  | RPAREN
+  | PLUS
+  | OR
+  | NUM of int
+  | NEQ
+  | MUL
+  | MOD
+  | MINUS
+  | LTE
+  | LT
+  | LPAREN
+  | LET
+  | IN
+  | IF
+  | GTE
+  | GT
+  | FUN
+  | FALSE
+  | EQ
+  | EOF
+  | ELSE
+  | DIV
+  | ARROW
+  | AND
+val menhir_begin_marker : int
+val xv_prog : Utils.prog
+val xv_expr : Utils.prog
+val xv_binary_expr : Utils.prog
+val xv_atom : Utils.prog
+val xv_app_expr : Utils.prog
+val menhir_end_marker : int

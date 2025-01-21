@@ -1,0 +1,9 @@
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:0:testing parse [2].
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:0:testing parse [2] is successful.
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:0:testing parse [2].
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:2:testing parse [2; 3; +; +].
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:2:testing parse [2; 3; +; +] is successful.
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:2:testing parse [2; 3; +; +].
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:4:testing parse [2; 3; +; 3; 3; +; <; 0; 1; 1; +].
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:4:testing parse [2; 3; +; 3; 3; +; <; 0; 1; 1; +] is successful.
+2024-10-21T21:33:40+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:4:testing parse [2; 3; +; 3; 3; +; <; 0; 1; 1; +].

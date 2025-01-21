@@ -1,0 +1,39 @@
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:0:Basic pow Examples:1:pow 2 4 is 16.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:0:Basic pow Examples:1:pow 2 4 is 16 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:0:Basic pow Examples:1:pow 2 4 is 16.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:0:Basic pow Examples:3:pow 3 4 is 81.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:0:Basic pow Examples:3:pow 3 4 is 81 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:0:Basic pow Examples:3:pow 3 4 is 81.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:0:Basic pow Examples:5:pow 34 0 is 1.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:0:Basic pow Examples:5:pow 34 0 is 1 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:0:Basic pow Examples:5:pow 34 0 is 1.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:1:Basic nth_prime tests:0:nth_prime 0 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:1:Basic nth_prime tests:0:nth_prime 0 is 2 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:1:Basic nth_prime tests:0:nth_prime 0 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:1:Basic nth_prime tests:1:nth_prime 1 is 3.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:1:Basic nth_prime tests:1:nth_prime 1 is 3 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:1:Basic nth_prime tests:1:nth_prime 1 is 3.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:1:Basic nth_prime tests:3:nth_prime 3 is 7.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:1:Basic nth_prime tests:3:nth_prime 3 is 7 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:1:Basic nth_prime tests:3:nth_prime 3 is 7.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:1:Basic nth_prime tests:5:nth_prime 999 is 7919.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:1:Basic nth_prime tests:5:nth_prime 999 is 7919 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:1:Basic nth_prime tests:5:nth_prime 999 is 7919.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:2:Basic nth tests:1:nth 12 0 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:2:Basic nth tests:1:nth 12 0 is 2 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:2:Basic nth tests:1:nth 12 0 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:2:Basic nth tests:3:nth 300 2 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:2:Basic nth tests:3:nth 300 2 is 2 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:2:Basic nth tests:3:nth 300 2 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:2:Basic nth tests:5:nth 1058400 0 is 5.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:2:Basic nth tests:5:nth 1058400 0 is 5 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:2:Basic nth tests:5:nth 1058400 0 is 5.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:2:Basic nth tests:7:nth 1058400 2 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:2:Basic nth tests:7:nth 1058400 2 is 2 is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:2:Basic nth tests:7:nth 1058400 2 is 2.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:3:Basic to_string Examples:1:to_string 2 is [1].
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:3:Basic to_string Examples:1:to_string 2 is [1] is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:3:Basic to_string Examples:1:to_string 2 is [1].
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Start test Testing Assign01:3:Basic to_string Examples:3:to_string 2310 is [1; 1; 1; 1; 1].
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: Test Testing Assign01:3:Basic to_string Examples:3:to_string 2310 is [1; 1; 1; 1; 1] is successful.
+2024-09-07T16:44:40+00:00 Kelvins-MacBook-Air.local#02 I: End test Testing Assign01:3:Basic to_string Examples:3:to_string 2310 is [1; 1; 1; 1; 1].

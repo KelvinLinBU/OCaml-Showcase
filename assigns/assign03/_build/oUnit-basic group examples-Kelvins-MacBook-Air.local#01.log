@@ -1,0 +1,12 @@
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic group examples:0:testing group [1;2;3;0;-1;-2;-3;0;1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Test basic group examples:0:testing group [1;2;3;0;-1;-2;-3;0;1;2;3] is successful.
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: End test basic group examples:0:testing group [1;2;3;0;-1;-2;-3;0;1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic group examples:2:testing group [1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Test basic group examples:2:testing group [1;2;3] is successful.
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: End test basic group examples:2:testing group [1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic group examples:4:testing group [0;1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Test basic group examples:4:testing group [0;1;2;3] is successful.
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: End test basic group examples:4:testing group [0;1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic group examples:5:testing group [1;2;3;0;1;2;3].
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: Test basic group examples:5:testing group [1;2;3;0;1;2;3] is successful.
+2024-09-25T15:42:14+00:00 Kelvins-MacBook-Air.local#01 I: End test basic group examples:5:testing group [1;2;3;0;1;2;3].

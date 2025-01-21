@@ -1,0 +1,6 @@
+description = ""
+requires = "utils"
+archive(byte) = "my_parser.cma"
+archive(native) = "my_parser.cmxa"
+plugin(byte) = "my_parser.cma"
+plugin(native) = "my_parser.cmxs"

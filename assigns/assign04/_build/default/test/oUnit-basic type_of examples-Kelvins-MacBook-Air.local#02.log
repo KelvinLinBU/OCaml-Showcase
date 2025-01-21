@@ -1,0 +1,15 @@
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic type_of examples:1:testing: type_of true.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic type_of examples:1:testing: type_of true is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic type_of examples:1:testing: type_of true.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic type_of examples:3:testing: type_of (true || 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic type_of examples:3:testing: type_of (true || 3) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic type_of examples:3:testing: type_of (true || 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic type_of examples:5:testing: type_of (if true then false else true).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic type_of examples:5:testing: type_of (if true then false else true) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic type_of examples:5:testing: type_of (if true then false else true).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic type_of examples:7:testing: type_of (if 2 then 3 else 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic type_of examples:7:testing: type_of (if 2 then 3 else 3) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic type_of examples:7:testing: type_of (if 2 then 3 else 3).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic type_of examples:9:testing: type_of (3 + (if true then 2 else 3)).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic type_of examples:9:testing: type_of (3 + (if true then 2 else 3)) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic type_of examples:9:testing: type_of (3 + (if true then 2 else 3)).

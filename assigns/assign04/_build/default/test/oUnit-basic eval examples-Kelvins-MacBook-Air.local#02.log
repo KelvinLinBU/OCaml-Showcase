@@ -1,0 +1,6 @@
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic eval examples:1:testing:  eval true.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic eval examples:1:testing:  eval true is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic eval examples:1:testing:  eval true.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Start test basic eval examples:3:testing:  eval (2 + (if (true || false) then (-2) else (2 + 3))).
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: Test basic eval examples:3:testing:  eval (2 + (if (true || false) then (-2) else (2 + 3))) is successful.
+2024-09-30T16:38:24+00:00 Kelvins-MacBook-Air.local#02 I: End test basic eval examples:3:testing:  eval (2 + (if (true || false) then (-2) else (2 + 3))).

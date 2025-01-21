@@ -1,0 +1,10 @@
+lib: [
+  "_build/install/default/lib/assign07/META"
+  "_build/install/default/lib/assign07/assign07.cma"
+  "_build/install/default/lib/assign07/assign07.cmxa"
+  "_build/install/default/lib/assign07/dune-package"
+  "_build/install/default/lib/assign07/opam"
+]
+libexec: [
+  "_build/install/default/lib/assign07/assign07.cmxs"
+]

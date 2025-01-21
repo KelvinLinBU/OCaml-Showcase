@@ -1,0 +1,14 @@
+(lang dune 3.16)
+(name assign07)
+(sections (lib .) (libexec .))
+(files
+ (lib (META assign07.cma assign07.cmxa dune-package opam))
+ (libexec (assign07.cmxs)))
+(library
+ (name assign07)
+ (kind normal)
+ (archives (byte assign07.cma) (native assign07.cmxa))
+ (plugins (byte assign07.cma) (native assign07.cmxs))
+ (requires stdlib320 utils my_parser)
+ (modes byte native)
+ (modules (unwrapped)))

@@ -1,0 +1,32 @@
+# dune test
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/kelvin/.cache/dune/db
+# Workspace root: /Users/kelvin/cs320-fall-2024-private/assigns/assign05
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -config > /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/dune_d19e0b_output
+$ (cd _build/default/test && ./test_assign05_01.exe)
+> .....
+> Ran: 5 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./test_assign05_04.exe)
+> ..................
+> Ran: 18 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./test_assign05_03.exe)
+> .....
+> Ran: 5 tests in: 0.11 seconds.
+> OK
+$ (cd _build/default/test && ./test_assign05_02.exe)
+> ...
+> Ran: 3 tests in: 1.28 seconds.
+> OK

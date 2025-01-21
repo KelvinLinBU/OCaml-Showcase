@@ -1,0 +1,6 @@
+description = ""
+requires = "my_parser stdlib320 utils"
+archive(byte) = "assign07.cma"
+archive(native) = "assign07.cmxa"
+plugin(byte) = "assign07.cma"
+plugin(native) = "assign07.cmxs"

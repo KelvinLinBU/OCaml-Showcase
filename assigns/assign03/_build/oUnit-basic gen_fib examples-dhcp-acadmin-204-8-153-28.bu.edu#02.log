@@ -1,0 +1,10 @@
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 I: Start test basic gen_fib examples:1:testing gen_fib [1;2;3] up to index 7.
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 E: Test basic gen_fib examples:1:testing gen_fib [1;2;3] up to index 7 has failed.
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 E: not equal in test basic gen_fib examples:1:testing gen_fib [1;2;3] up to index 7.
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 E: 
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 I: End test basic gen_fib examples:1:testing gen_fib [1;2;3] up to index 7.
+2024-09-24T14:43:20+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 I: Start test basic gen_fib examples:3.
+2024-09-24T14:43:21+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 I: Test basic gen_fib examples:3 is successful.
+2024-09-24T14:43:21+00:00 dhcp-acadmin-204-8-153-28.bu.edu#02 I: End test basic gen_fib examples:3.

@@ -1,0 +1,9 @@
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic gen_fib examples:0:testing gen_fib fib up to index 7.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: Test basic gen_fib examples:0:testing gen_fib fib up to index 7 is successful.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: End test basic gen_fib examples:0:testing gen_fib fib up to index 7.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic gen_fib examples:2:testing gen_fib zeros up to index 7.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: Test basic gen_fib examples:2:testing gen_fib zeros up to index 7 is successful.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: End test basic gen_fib examples:2:testing gen_fib zeros up to index 7.
+2024-09-25T15:42:04+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic gen_fib examples:3.
+2024-09-25T15:42:05+00:00 Kelvins-MacBook-Air.local#01 I: Test basic gen_fib examples:3 is successful.
+2024-09-25T15:42:05+00:00 Kelvins-MacBook-Air.local#01 I: End test basic gen_fib examples:3.

@@ -1,0 +1,18 @@
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:0:testing parse "2 + 3".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:0:testing parse "2 + 3" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:0:testing parse "2 + 3".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:2:testing parse "3 + 3 * 3 + 3".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:2:testing parse "3 + 3 * 3 + 3" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:2:testing parse "3 + 3 * 3 + 3".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:4:testing parse "let x = 2 in x".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:4:testing parse "let x = 2 in x" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:4:testing parse "let x = 2 in x".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:6:testing parse "let fun = 2 in x".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:6:testing parse "let fun = 2 in x" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:6:testing parse "let fun = 2 in x".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:8:testing parse "2 mod (if true then 2 else 3)".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:8:testing parse "2 mod (if true then 2 else 3)" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:8:testing parse "2 mod (if true then 2 else 3)".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic parse examples:9:testing parse "(((( 2 <= 3 <= 4 ))))".
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: Test basic parse examples:9:testing parse "(((( 2 <= 3 <= 4 ))))" is successful.
+2024-10-27T19:28:58+00:00 Kelvins-MacBook-Air.local#01 I: End test basic parse examples:9:testing parse "(((( 2 <= 3 <= 4 ))))".

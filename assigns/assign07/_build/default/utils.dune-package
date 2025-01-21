@@ -1,0 +1,29 @@
+(lang dune 3.16)
+(name utils)
+(sections (lib .) (libexec .))
+(files
+ (lib
+  (META
+   dune-package
+   opam
+   utils.a
+   utils.cma
+   utils.cmi
+   utils.cmt
+   utils.cmx
+   utils.cmxa
+   utils.ml))
+ (libexec (utils.cmxs)))
+(library
+ (name utils)
+ (kind normal)
+ (archives (byte utils.cma) (native utils.cmxa))
+ (plugins (byte utils.cma) (native utils.cmxs))
+ (native_archives utils.a)
+ (main_module_name Utils)
+ (modes byte native)
+ (modules
+  (singleton
+   (obj_name utils)
+   (visibility public)
+   (source (path Utils) (impl (path utils.ml))))))

@@ -1,0 +1,62 @@
+# dune build
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/kelvin/.cache/dune/db
+# Workspace root: /Users/kelvin/cs320-fall-2024-private/assigns/assign03
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -config > /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/dune_dec012_output
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_assign03_03.ml) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_03.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_assign03_02.ml) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_02.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_assign03_01.ml) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_01.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_suite/test04.ml) > _build/default/test/test_suite/.test_suite.objs/test04.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl lib/assign03_01.ml) > _build/default/lib/.assign03.objs/assign03_01.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl lib/assign03_04.ml) > _build/default/lib/.assign03.objs/assign03_04.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl lib/assign03_02.ml) > _build/default/lib/.assign03.objs/assign03_02.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl lib/assign03_03.ml) > _build/default/lib/.assign03.objs/assign03_03.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_assign03_04.ml) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_04.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_suite/test02.ml) > _build/default/test/test_suite/.test_suite.objs/test02.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_suite/test01.ml) > _build/default/test/test_suite/.test_suite.objs/test01.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -impl test/test_suite/test03.ml) > _build/default/test/test_suite/.test_suite.objs/test03.impl.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -bin-annot -I lib/.assign03.objs/byte -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -no-alias-deps -opaque -o lib/.assign03.objs/byte/assign03_02.cmo -c -impl lib/assign03_02.ml)
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -bin-annot -I lib/.assign03.objs/byte -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -no-alias-deps -opaque -o lib/.assign03.objs/byte/assign03_01.cmo -c -impl lib/assign03_01.ml)
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -bin-annot -I lib/.assign03.objs/byte -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -no-alias-deps -opaque -o lib/.assign03.objs/byte/assign03_03.cmo -c -impl lib/assign03_03.ml)
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -bin-annot -I lib/.assign03.objs/byte -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -no-alias-deps -opaque -o lib/.assign03.objs/byte/assign03_04.cmo -c -impl lib/assign03_04.ml)
+> File "lib/assign03_04.ml", line 33, characters 11-13:
+> 33 |     | x :: xs when x = 0 ->
+>                 ^^
+> Error (warning 27 [unused-var-strict]): unused variable xs.
+[2]
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -intf test/test_assign03_02.mli) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_02.intf.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -intf test/test_assign03_03.mli) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_03.intf.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -bin-annot -I test/.test_assign03_01.eobjs/byte -no-alias-deps -opaque -o test/.test_assign03_01.eobjs/byte/dune__exe.cmo -c -impl test/.test_assign03_01.eobjs/dune__exe.ml-gen)
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -intf test/test_assign03_01.mli) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_01.intf.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamldep.opt -modules -intf test/test_assign03_04.mli) > _build/default/test/.test_assign03_01.eobjs/dune__exe__Test_assign03_04.intf.d
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -49 -nopervasives -nostdlib -g -I test/.test_assign03_01.eobjs/byte -I test/.test_assign03_01.eobjs/native -intf-suffix .ml-gen -no-alias-deps -opaque -o test/.test_assign03_01.eobjs/native/dune__exe.cmx -c -impl test/.test_assign03_01.eobjs/dune__exe.ml-gen)
+> xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+> File "test/.test_assign03_01.eobjs/dune__exe.ml-gen", line 1:
+> Error: Assembler error, input left in file /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/build_292134_dune/camlasmfd3358.s
+[2]
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -I lib/.assign03.objs/byte -I lib/.assign03.objs/native -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -intf-suffix .ml -no-alias-deps -opaque -o lib/.assign03.objs/native/assign03_02.cmx -c -impl lib/assign03_02.ml)
+> xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+> File "lib/assign03_02.ml", line 1:
+> Error: Assembler error, input left in file /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/build_292134_dune/camlasm7ae0b4.s
+[2]
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -I lib/.assign03.objs/byte -I lib/.assign03.objs/native -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -intf-suffix .ml -no-alias-deps -opaque -o lib/.assign03.objs/native/assign03_01.cmx -c -impl lib/assign03_01.ml)
+> xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+> File "lib/assign03_01.ml", line 1:
+> Error: Assembler error, input left in file /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/build_292134_dune/camlasm67ae92.s
+[2]
+$ (cd _build/default && /Users/kelvin/cs320-fall-2024-private/_opam/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -nostdlib -nopervasives -open Stdlib320 -g -I lib/.assign03.objs/byte -I lib/.assign03.objs/native -I /Users/kelvin/cs320-fall-2024-private/_opam/lib/stdlib320 -intf-suffix .ml -no-alias-deps -opaque -o lib/.assign03.objs/native/assign03_03.cmx -c -impl lib/assign03_03.ml)
+> xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+> File "lib/assign03_03.ml", line 1:
+> Error: Assembler error, input left in file /var/folders/rv/hd876kss68148qrgkftj79l80000gn/T/build_292134_dune/camlasm75d2a6.s
+[2]

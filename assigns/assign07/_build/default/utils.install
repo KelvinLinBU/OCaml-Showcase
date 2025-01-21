@@ -1,0 +1,15 @@
+lib: [
+  "_build/install/default/lib/utils/META"
+  "_build/install/default/lib/utils/dune-package"
+  "_build/install/default/lib/utils/opam"
+  "_build/install/default/lib/utils/utils.a"
+  "_build/install/default/lib/utils/utils.cma"
+  "_build/install/default/lib/utils/utils.cmi"
+  "_build/install/default/lib/utils/utils.cmt"
+  "_build/install/default/lib/utils/utils.cmx"
+  "_build/install/default/lib/utils/utils.cmxa"
+  "_build/install/default/lib/utils/utils.ml"
+]
+libexec: [
+  "_build/install/default/lib/utils/utils.cmxs"
+]

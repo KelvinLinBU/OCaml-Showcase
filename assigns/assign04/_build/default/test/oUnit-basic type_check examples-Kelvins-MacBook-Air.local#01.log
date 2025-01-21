@@ -1,0 +1,9 @@
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_check examples:0:testing t1.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_check examples:0:testing t1 is successful.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_check examples:0:testing t1.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_check examples:2:testing t3.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_check examples:2:testing t3 is successful.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_check examples:2:testing t3.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Start test basic type_check examples:4:testing t5.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: Test basic type_check examples:4:testing t5 is successful.
+2024-09-30T16:38:23+00:00 Kelvins-MacBook-Air.local#01 I: End test basic type_check examples:4:testing t5.

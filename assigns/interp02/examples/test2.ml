@@ -1,0 +1,1 @@
+let _ : unit = assert ( sum_of_squares 3 ( -5) = 34)
